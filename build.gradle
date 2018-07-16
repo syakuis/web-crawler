@@ -31,6 +31,8 @@ dependencies {
     compile "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
     testCompile "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
 
+    compile 'org.jsoup:jsoup:1.11.3'
+
     compileOnly 'org.projectlombok:lombok:1.18.0'
     apt 'org.projectlombok:lombok:1.18.0'
 
